@@ -1,1 +1,3 @@
 java -jar moco-runner-0.11.0-standalone.jar http -p 8866 -c startup.json
+#该说明为启动MoCo模拟接口
+#为HttpClientDemo提供
