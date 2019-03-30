@@ -1,0 +1,33 @@
+[
+  {
+    "description":"这是一个post请求",
+    "request":{
+      "uri":"/postDemo",
+      "method":"post"
+    },
+    "response":{
+      "text":"这是一个post请求的返回",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  },
+  {
+   "description":"这是一个post带参的接口",
+    "request":{
+      "uri":"/postDemoParm",
+      "method":"post",
+      "forms":{
+        "username":"admin",
+        "password":"wangshiheng"
+      }
+    },
+    "response":{
+      "text":"这是一个post带参数的请求的返回",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  }
+
+]

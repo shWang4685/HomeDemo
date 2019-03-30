@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="测试接口使用">
+
+    <test name="测试块">
+
+        <classes>
+            <class name="com.cn.httpClient.demo.MyHttpClientr">
+
+            </class>
+        </classes>
+
+    </test>
+</suite>

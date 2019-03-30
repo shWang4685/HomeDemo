@@ -1,0 +1,18 @@
+[
+  {
+    "description":"这是一个返回cookie的get请求",
+    "request": {
+      "uri": "/get/cookie",
+      "method": "get"
+    },
+    "response":{
+      "text":"恭喜你返回cookie成功",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "cookies":{
+        "login":"true"
+      }
+    }
+  }
+]

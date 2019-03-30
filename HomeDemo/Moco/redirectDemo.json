@@ -1,0 +1,21 @@
+[
+  {
+    "description":"这是一个post重定向请求",
+    "request":{
+      "uri":"/redirect/post",
+      "method":"post"
+    },
+    "redirectTo":"/post/redirect"
+  },
+  {
+    "description":"这是重定向目标接口",
+    "request":{
+      "uri":"/post/redirect",
+      "method":"post"
+    },
+    "response":{
+      "text":"重定向成功"
+    }
+  }
+
+]
