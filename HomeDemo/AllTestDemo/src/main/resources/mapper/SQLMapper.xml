@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 命名空间mapper,如果有多个mapper文件，这个必须唯一 -->
+<mapper namespace="com.tester.model">
+
+    <!--获取登陆接口case-->
+    <select id="loginCase" parameterType="Integer"  resultType="com.couse.model.LoginCase">
+
+        select * from loginCase_tbl
+        where id = #{id};
+    </select>
+
+
+
+
+
+
+
+
+
+
+</mapper>

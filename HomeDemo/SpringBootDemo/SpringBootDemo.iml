@@ -75,6 +75,7 @@
     <orderEntry type="library" name="Maven: org.mapstruct:mapstruct:1.0.0.Final" level="project" />
     <orderEntry type="library" name="Maven: io.springfox:springfox-swagger-ui:2.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.14" level="project" />
+    <orderEntry type="library" name="Maven: error:error:unknown" level="project" />
     <orderEntry type="library" name="Maven: org.testng:testng:7.0.0-beta1" level="project" />
     <orderEntry type="library" name="Maven: com.beust:jcommander:1.72" level="project" />
   </component>
